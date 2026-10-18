@@ -289,7 +289,7 @@ backend/
 ## 📁 Project Structure
 
 ```
-LifeMemory-AI/
+LifeMemory/
 ├── backend/                    # FastAPI backend
 │   ├── api/                   # API endpoints
 │   ├── auth/                  # Authentication
@@ -335,8 +335,8 @@ LifeMemory-AI/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Sharank874/LifeMemory-AI.git
-cd LifeMemory-AI
+git clone https://github.com/Sharank874/LifeMemory.git
+cd LifeMemory
 ```
 
 ### 2. Backend Setup
@@ -1042,7 +1042,7 @@ The screenshots use sample entries from `DEMO_ENTRIES.md`, with the backend resp
 
 For issues, questions, or contributions:
 
-- **GitHub Issues**: [Create an issue](https://github.com/Sharank874/LifeMemory-AI/issues)
+- **GitHub Issues**: [Create an issue](https://github.com/Sharank874/LifeMemory/issues)
 - **Documentation**: See this README and inline code documentation
 
 ---
