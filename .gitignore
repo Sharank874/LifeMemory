@@ -1,0 +1,20 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Dependencies and builds
+node_modules/
+.next/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+mlruns/
+
+# OS / editor
+.DS_Store
+.Rhistory
+.vscode/
+.idea/

@@ -1,0 +1,44 @@
+# Core API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database
+supabase==2.3.0
+psycopg2-binary==2.9.9
+pgvector==0.2.4
+asyncpg==0.29.0
+
+# LangChain stack (LOCKED)
+langchain==0.1.6
+langchain-core==0.1.23
+langchain-community==0.0.20
+langchain-openai==0.0.2
+langchain-google-genai==0.0.6
+langchain-groq==0.0.1
+
+# LangGraph (CRITICAL — compatible range)
+langgraph>=0.0.20,<0.0.25
+
+# LLMs
+openai==1.12.0
+cohere==4.47
+
+# Auth
+python-jose[cryptography]==3.3.0
+PyJWT>=2.10.1
+python-multipart==0.0.6
+
+# Utils
+python-dotenv==1.0.0
+httpx>=0.24.0,<0.25.0
+tenacity==8.2.3
+numpy>=1.0.0,<2.0.0; python_version < "3.13"
+numpy>=2.1.0,<3.0.0; python_version >= "3.13"
+pandas>=2.0.0
+tiktoken==0.5.2
+
+# Testing (optional in prod, but fine)
+pytest==7.4.4
+pytest-asyncio==0.23.3

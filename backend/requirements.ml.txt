@@ -1,0 +1,19 @@
+# MLOps and Evaluation Tools
+# These require pydantic<2 and are NOT compatible with FastAPI production runtime
+# Install these separately for local ML evaluation and experimentation only
+# DO NOT include in production Docker image
+
+# MLOps
+mlflow==2.11.1
+evidently==0.4.15
+ragas==0.1.7
+datasets==2.16.1
+
+# Background jobs (optional, for async task processing)
+prefect==2.14.11
+celery==5.3.6
+redis==5.0.1
+
+# Note: Install these in a separate virtual environment or use conda
+# Example: pip install -r requirements.ml.txt
+
